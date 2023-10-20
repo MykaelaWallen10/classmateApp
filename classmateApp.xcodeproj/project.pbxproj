@@ -17,6 +17,8 @@
 		BB44E5522AD6E528009A2165 /* classmateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44E5512AD6E528009A2165 /* classmateAppTests.swift */; };
 		BB44E55C2AD6E528009A2165 /* classmateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44E55B2AD6E528009A2165 /* classmateAppUITests.swift */; };
 		BB44E55E2AD6E528009A2165 /* classmateAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44E55D2AD6E528009A2165 /* classmateAppUITestsLaunchTests.swift */; };
+		BB44E56B2AD6E5D2009A2165 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44E56A2AD6E5D2009A2165 /* ViewController2.swift */; };
+		BB44E56F2AD6E818009A2165 /* Classmate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44E56E2AD6E818009A2165 /* Classmate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		BB44E5572AD6E528009A2165 /* classmateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = classmateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB44E55B2AD6E528009A2165 /* classmateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classmateAppUITests.swift; sourceTree = "<group>"; };
 		BB44E55D2AD6E528009A2165 /* classmateAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classmateAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB44E56A2AD6E5D2009A2165 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		BB44E56E2AD6E818009A2165 /* Classmate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classmate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				BB44E5392AD6E526009A2165 /* SceneDelegate.swift */,
 				BB44E53B2AD6E526009A2165 /* ViewController.swift */,
 				BB44E53D2AD6E526009A2165 /* Main.storyboard */,
+				BB44E56A2AD6E5D2009A2165 /* ViewController2.swift */,
+				BB44E56E2AD6E818009A2165 /* Classmate.swift */,
 				BB44E5432AD6E528009A2165 /* Assets.xcassets */,
 				BB44E5452AD6E528009A2165 /* LaunchScreen.storyboard */,
 				BB44E5482AD6E528009A2165 /* Info.plist */,
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB44E56B2AD6E5D2009A2165 /* ViewController2.swift in Sources */,
 				BB44E53C2AD6E526009A2165 /* ViewController.swift in Sources */,
 				BB44E5382AD6E526009A2165 /* AppDelegate.swift in Sources */,
 				BB44E53A2AD6E526009A2165 /* SceneDelegate.swift in Sources */,
 				BB44E5422AD6E526009A2165 /* classmateApp.xcdatamodeld in Sources */,
+				BB44E56F2AD6E818009A2165 /* Classmate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
